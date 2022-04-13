@@ -1,0 +1,119 @@
+﻿<UserControl x:Class="Mathematical_Operations.Views.FunctionsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Mathematical_Operations.Views"
+              xmlns:viewmodels="clr-namespace:Mathematical_Operations.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <Style TargetType="TextBlock">
+                <Setter Property="FontSize" Value="16"/>
+            </Style>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!-- row 0 -->
+        <TextBlock FontSize="30" Text="Functions" HorizontalAlignment="Center" Grid.Column="1"></TextBlock>
+        
+        <!-- row 1 -->
+        <StackPanel Grid.Row="1">
+            <StackPanel Orientation="Horizontal" Margin=" 0 5 0 0">
+                <TextBox Width="40" Height="30" FontSize="20" Text="{Binding A, UpdateSourceTrigger=PropertyChanged}"/>
+                <TextBlock Text=" -> X^2 " FontSize="20"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBox Width="40" FontSize="20" Text="{Binding B}" Margin=" 0 5 0 0"/>
+                <TextBlock Text=" -> X  " FontSize="20"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin=" 0 5 0 0">
+                <TextBox Width="40" FontSize="20" Text="{Binding C}"/>
+                <TextBlock Text=" -> constant term  " FontSize="20"/>
+            </StackPanel>
+            
+            <Button Content="Calculate" Command="{Binding CalculateFunctionCommand}" Height="30" Margin="0 10 0 0"></Button>
+            
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="2" HorizontalAlignment="Left">
+            <StackPanel Orientation="Horizontal" >
+                
+                <TextBlock FontSize="20"> Delta =</TextBlock>
+                <TextBlock FontSize="20" Text="{Binding Delta}"/>
+               
+           </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontSize="20"> X1 = </TextBlock>
+                <TextBlock FontSize="20" Text="{Binding X1}"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontSize="20"> X2 = </TextBlock>
+                <TextBlock FontSize="20" Text="{Binding X2}"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontSize="20"> P = </TextBlock>
+                <TextBlock FontSize="20" Text="{Binding P}"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontSize="20"> Q = </TextBlock>
+                <TextBlock FontSize="20" Text="{Binding Q}"/>
+            </StackPanel>
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center">
+            <TextBlock> standard quadratic function :</TextBlock>
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock Text="{Binding A}"/>
+                <TextBlock Text="X^2 + ( "/>
+                <TextBlock Text="{Binding B}"/>
+                <TextBlock Text=" )X + ("/>
+                <TextBlock Text="{Binding C}"/>
+                <TextBlock Text=" )"/>
+            </StackPanel>
+            <TextBlock> canonical quadratic function :</TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock> ( x - (</TextBlock>
+                <TextBlock Text="{Binding X1}"></TextBlock>
+                <TextBlock> ))(x - (</TextBlock>
+                <TextBlock Text="{Binding X2}"></TextBlock>
+                <TextBlock Text=" ))"></TextBlock>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center">
+                <TextBlock> canonical quadratic function :</TextBlock>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="{Binding A}"></TextBlock>
+                    <TextBlock> (X - (</TextBlock>
+                    <TextBlock Text="{Binding P}"></TextBlock>
+                    <TextBlock Text=" ))^2 + "></TextBlock>
+                    <TextBlock Text="{Binding Q}"></TextBlock>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Height="20" Width="100" Content="Save to the file" Command="{Binding SaveFunctionCommand}"></Button>
+        </StackPanel>
+
+        
+    </Grid>
+</UserControl>

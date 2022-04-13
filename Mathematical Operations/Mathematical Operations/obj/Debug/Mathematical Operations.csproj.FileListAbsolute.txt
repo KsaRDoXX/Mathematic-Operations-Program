@@ -1,0 +1,40 @@
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\bin\Debug\Mathematical Operations.exe.config
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\bin\Debug\Mathematical Operations.exe
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\bin\Debug\Mathematical Operations.pdb
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\Mathematical Operations.csproj.AssemblyReference.cache
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\Mathematical Operations.csproj.SuggestedBindingRedirects.cache
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\MainWindow.g.cs
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\App.g.cs
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\Mathematical Operations_MarkupCompile.cache
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\Mathematical Operations_MarkupCompile.lref
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\MainWindow.baml
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\Mathematical Operations.g.resources
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\Mathematical_Operations.Properties.Resources.resources
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\Mathematical Operations.csproj.GenerateResource.cache
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\Mathematical Operations.csproj.CoreCompileInputs.cache
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\Mathematical Operations.exe
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\Mathematical Operations.pdb
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\Views\CalculatorView.g.cs
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\Views\EquationsView.g.cs
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\Views\FunctionsView.g.cs
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\App.baml
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\Views\CalculatorView.baml
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\Views\EquationsView.baml
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\Views\FunctionsView.baml
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\bin\Debug\Prism.dll
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\bin\Debug\Prism.pdb
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\bin\Debug\Prism.xml
+C:\Users\xtron\Desktop\C#\mvvm\Mathematical Operations\Mathematical Operations\obj\Debug\Mathematical Operations.csproj.CopyComplete
+C:\Users\xtron\Desktop\Mathematical Operations\obj\Debug\Mathematical Operations.csproj.AssemblyReference.cache
+C:\Users\xtron\Desktop\Mathematical Operations\obj\Debug\Mathematical Operations.csproj.SuggestedBindingRedirects.cache
+C:\Users\xtron\Desktop\Mathematical Operations\obj\Debug\MainWindow.g.cs
+C:\Users\xtron\Desktop\Mathematical Operations\obj\Debug\Views\CalculatorView.g.cs
+C:\Users\xtron\Desktop\Mathematical Operations\obj\Debug\Views\EquationsView.g.cs
+C:\Users\xtron\Desktop\Mathematical Operations\obj\Debug\Views\FunctionsView.g.cs
+C:\Users\xtron\Desktop\Mathematical Operations\obj\Debug\App.g.cs
+C:\Users\xtron\Desktop\Mathematical Operations\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\xtron\Desktop\Mathematical Operations\obj\Debug\Mathematical Operations_MarkupCompile.cache
+C:\Users\xtron\Desktop\Mathematical Operations\obj\Debug\Mathematical Operations_MarkupCompile.lref
+C:\Users\xtron\Desktop\Mathematical Operations\obj\Debug\Mathematical Operations.exe
+C:\Users\xtron\Desktop\Mathematical Operations\obj\Debug\Mathematical Operations.pdb
